@@ -43,3 +43,7 @@ fp-info-cache
 
 # Local project settings
 *.kicad_prl
+
+# kicad happy claude code skill
+datasheets/
+analysis/

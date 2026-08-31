@@ -28,7 +28,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "lib_symbol_mismatch|317500|546100|220e4903-3691-416c-9c8b-a1203ff12524|00000000-0000-0000-0000-000000000000|||",
+        "Reworked this a little to make symbol cleaner"
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -279,6 +284,46 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "GPIO",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(148, 69, 255)",
+        "tuning_profile": "",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "QSPI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(255, 189, 0)",
+        "tuning_profile": "",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgb(29, 42, 255)",
+        "tuning_profile": "",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "VBUS",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgb(255, 0, 9)",
+        "tuning_profile": "",
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -286,7 +331,20 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "USB",
+        "pattern": "/USB*"
+      },
+      {
+        "netclass": "QSPI",
+        "pattern": "/QSPI*"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/GPIO*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -445,7 +503,7 @@
         "uuid": "addad811-4b4a-4af0-b85e-ee2fefa70dd0"
       }
     ],
-    "used_designators": "TP1-3,LED1-6,X1,U1-3,C1-22,SW1-3,R1-9,#PWR1-76,D1-3,BUZZER1,F1-2,#SYM1,J1-3",
+    "used_designators": "#FLG1-3,TP1-3,BUZZER1,X1,LED1-6,U1-3,C1-22,SW1-3,#PWR1-76,D1-3,F1-2,R1-9,#SYM1,J1-3",
     "variants": []
   },
   "sheets": [
