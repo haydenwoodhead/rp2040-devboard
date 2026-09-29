@@ -47,3 +47,5 @@ fp-info-cache
 # kicad happy claude code skill
 datasheets/
 analysis/
+
+_restore_back*
