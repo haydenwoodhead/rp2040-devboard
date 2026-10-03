@@ -5903,6 +5903,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 77.47) (xy 274.32 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aacb8a2-67df-4843-9b74-bc8970fa8d89")
+	)
+	(wire
+		(pts
 			(xy 341.63 97.79) (xy 336.55 97.79)
 		)
 		(stroke
@@ -6053,16 +6063,6 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 80.01) (xy 274.32 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13d3e421-28e8-4072-b06f-6beb54553c6d")
-	)
-	(wire
-		(pts
 			(xy 77.47 138.43) (xy 77.47 144.78)
 		)
 		(stroke
@@ -6140,6 +6140,16 @@
 			(type default)
 		)
 		(uuid "1a26db93-c536-4197-bbf1-2689de1ad5e7")
+	)
+	(wire
+		(pts
+			(xy 264.16 80.01) (xy 274.32 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a51bc05-5edf-484d-8d39-b5e0771c227f")
 	)
 	(wire
 		(pts
@@ -6530,16 +6540,6 @@
 			(type default)
 		)
 		(uuid "4065e8e7-09e6-4049-ab8e-7d228d6b907a")
-	)
-	(wire
-		(pts
-			(xy 264.16 77.47) (xy 274.32 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41d6affd-7137-4296-8e55-c0bab75479ac")
 	)
 	(wire
 		(pts
@@ -9172,7 +9172,7 @@
 		(uuid "dbc7db81-fac5-4583-b1fd-02be60f681a7")
 	)
 	(label "USR_SWTCH"
-		(at 274.32 77.47 0)
+		(at 274.32 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9202,7 +9202,7 @@
 		(uuid "e052fcd6-3969-4927-b606-e53165ebc97d")
 	)
 	(label "BUZZ"
-		(at 274.32 80.01 0)
+		(at 274.32 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
