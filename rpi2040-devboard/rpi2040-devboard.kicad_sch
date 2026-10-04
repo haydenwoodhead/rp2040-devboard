@@ -8751,7 +8751,7 @@
 		)
 		(uuid "1c1b0e3d-b3fd-44e0-9695-21a369e7b82f")
 	)
-	(label "USB_D+"
+	(label "USB_RAW_D+"
 		(at 50.8 53.34 0)
 		(effects
 			(font
@@ -9081,7 +9081,7 @@
 		)
 		(uuid "bdbe5c00-15d3-4c47-a190-e65b9fc1e73c")
 	)
-	(label "USB_D-"
+	(label "USB_RAW_D-"
 		(at 50.8 45.72 0)
 		(effects
 			(font
@@ -9261,7 +9261,7 @@
 		)
 		(uuid "fc5beedf-f59c-4cd3-a05c-e7fcc76ffb61")
 	)
-	(label "VBUS"
+	(label "VBUS_RAW"
 		(at 48.26 39.37 0)
 		(effects
 			(font
