@@ -9283,7 +9283,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0130c5a3-353a-456c-8192-d0999c19df61")
-		(property "Reference" "J3"
+		(property "Reference" "GPIO1"
 			(at 163.83 238.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9420,7 +9420,7 @@
 		(instances
 			(project "rpi2040-devboard"
 				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
-					(reference "J3")
+					(reference "GPIO1")
 					(unit 1)
 				)
 			)
@@ -12879,8 +12879,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4696dadd-c5a2-419c-9557-0333fad3e8a9")
-		(property "Reference" "J2"
-			(at 162.56 121.9199 0)
+		(property "Reference" "SWD1"
+			(at 162.56 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12980,7 +12980,7 @@
 		(instances
 			(project "rpi2040-devboard"
 				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
-					(reference "J2")
+					(reference "SWD1")
 					(unit 1)
 				)
 			)
@@ -13382,7 +13382,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bcddc63-2c8c-4262-bb67-6f92a6966af4")
-		(property "Reference" "TP1"
+		(property "Reference" "VBUS1"
 			(at 109.22 234.1879 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13476,7 +13476,7 @@
 		(instances
 			(project "rpi2040-devboard"
 				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
-					(reference "TP1")
+					(reference "VBUS1")
 					(unit 1)
 				)
 			)
@@ -17339,7 +17339,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a1602ee8-0b5b-4251-9662-a7de7886ff53")
-		(property "Reference" "SW1"
+		(property "Reference" "RESET1"
 			(at 121.92 77.978 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17434,7 +17434,7 @@
 		(instances
 			(project "rpi2040-devboard"
 				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
-					(reference "SW1")
+					(reference "RESET1")
 					(unit 1)
 				)
 			)
@@ -18224,7 +18224,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5a2576d-c98c-4862-868d-917e147d2bc9")
-		(property "Reference" "TP4"
+		(property "Reference" "1v1"
 			(at 109.22 253.2379 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18318,7 +18318,7 @@
 		(instances
 			(project "rpi2040-devboard"
 				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
-					(reference "TP4")
+					(reference "1v1")
 					(unit 1)
 				)
 			)
@@ -18838,7 +18838,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c184098c-3e12-43db-a019-c4e76596df95")
-		(property "Reference" "TP3"
+		(property "Reference" "GND1"
 			(at 109.22 263.3979 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18932,7 +18932,7 @@
 		(instances
 			(project "rpi2040-devboard"
 				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
-					(reference "TP3")
+					(reference "GND1")
 					(unit 1)
 				)
 			)
@@ -19615,7 +19615,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "caf58183-fda8-4736-b09a-60083d33d111")
-		(property "Reference" "SW2"
+		(property "Reference" "BOOTSEL1"
 			(at 91.44 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19710,7 +19710,7 @@
 		(instances
 			(project "rpi2040-devboard"
 				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
-					(reference "SW2")
+					(reference "BOOTSEL1")
 					(unit 1)
 				)
 			)
@@ -19727,7 +19727,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d0406b2f-2757-481f-ba8b-056dcf65638c")
-		(property "Reference" "SW3"
+		(property "Reference" "USR1"
 			(at 342.9 181.102 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19840,7 +19840,7 @@
 		(instances
 			(project "rpi2040-devboard"
 				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
-					(reference "SW3")
+					(reference "USR1")
 					(unit 1)
 				)
 			)
@@ -20493,7 +20493,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df1253b0-2067-4353-9cf2-3e91b4bb47c6")
-		(property "Reference" "TP2"
+		(property "Reference" "3v3"
 			(at 109.22 243.0779 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20587,7 +20587,7 @@
 		(instances
 			(project "rpi2040-devboard"
 				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
-					(reference "TP2")
+					(reference "3v3")
 					(unit 1)
 				)
 			)

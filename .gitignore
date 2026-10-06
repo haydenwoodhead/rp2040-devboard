@@ -49,3 +49,7 @@ datasheets/
 analysis/
 
 _restore_back*
+
+# jlcpcb toolkit
+production/
+fabrication-toolkit-options.json
