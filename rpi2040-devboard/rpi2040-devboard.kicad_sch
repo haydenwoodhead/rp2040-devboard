@@ -4296,151 +4296,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "easyeda2kicad:KMTG1203"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "BUZZER"
-				(at 0 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "KMTG1203"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:BUZ-TH_L12.0-W12.0"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C7421651.pdf"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "KINGSTATE(志丰电子)"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "KMTG1203"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C7421651"
-				(at 0 -20.32 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "KMTG1203_0_1"
-				(polyline
-					(pts
-						(xy 0 -1.78) (xy 0 3.3) (xy -2.54 3.3) (xy -5.08 5.84) (xy -5.08 -5.84) (xy -2.54 -3.3) (xy 0 -3.3)
-						(xy 0 -1.78)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "easyeda2kicad:TS-1187A-B-A-B"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5555,7 +5410,7 @@
 	)
 	(text "LEDS\n"
 		(exclude_from_sim no)
-		(at 397.002 163.576 0)
+		(at 397.002 205.486 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -5565,23 +5420,13 @@
 	)
 	(text "User button"
 		(exclude_from_sim no)
-		(at 392.684 206.756 0)
+		(at 392.684 247.396 0)
 		(effects
 			(font
 				(size 2.54 2.54)
 			)
 		)
-		(uuid "17e6e79c-d0ac-44f3-910b-0740d9c9a94f")
-	)
-	(text "Buzzer\n"
-		(exclude_from_sim no)
-		(at 392.938 246.38 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "54c57fed-80c3-42e4-96d0-1bfc91a4f46e")
+		(uuid "64d2bdd9-b960-4f86-9c3a-033840e10bcc")
 	)
 	(text "GPIO Pins\n"
 		(exclude_from_sim no)
@@ -5780,8 +5625,8 @@
 		(uuid "0d451e82-75d2-4d2d-9f50-15f463e3ad7c")
 	)
 	(no_connect
-		(at 337.82 193.04)
-		(uuid "2f0e7b65-d562-42d0-8c98-aef935c085f9")
+		(at 264.16 77.47)
+		(uuid "0e39e870-6e74-4943-8270-86549133548a")
 	)
 	(no_connect
 		(at 46.99 69.85)
@@ -5798,10 +5643,6 @@
 	(no_connect
 		(at 264.16 90.17)
 		(uuid "6dda59c7-72b5-4515-b6aa-9784577f06ac")
-	)
-	(no_connect
-		(at 391.16 116.84)
-		(uuid "6f4cad4f-09b8-4c64-86c9-d5cd80c582fe")
 	)
 	(no_connect
 		(at 264.16 107.95)
@@ -5840,6 +5681,10 @@
 		(uuid "a4dc7ea8-b8bb-40ad-98c4-25ac366c37fc")
 	)
 	(no_connect
+		(at 337.82 233.68)
+		(uuid "a86fcc50-5603-40b0-92e0-4b6c1e272c90")
+	)
+	(no_connect
 		(at 264.16 110.49)
 		(uuid "aa49f64e-572d-4956-9d3a-d6ff3854224e")
 	)
@@ -5848,8 +5693,8 @@
 		(uuid "df6bc006-8473-49d2-9a76-98adc117393d")
 	)
 	(no_connect
-		(at 347.98 185.42)
-		(uuid "f741d060-c24f-4884-8a2c-54c44740d6f6")
+		(at 347.98 226.06)
+		(uuid "df6c2f83-23fc-42f6-9283-6f6e0b3d5b74")
 	)
 	(wire
 		(pts
@@ -5873,6 +5718,26 @@
 	)
 	(wire
 		(pts
+			(xy 309.88 175.26) (xy 309.88 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01afbc46-0b0f-4828-a8b0-1d8a53a1f649")
+	)
+	(wire
+		(pts
+			(xy 364.49 142.24) (xy 364.49 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "025c6a6b-17ab-49cc-b46c-57be491a1f78")
+	)
+	(wire
+		(pts
 			(xy 203.2 148.59) (xy 213.36 148.59)
 		)
 		(stroke
@@ -5880,6 +5745,16 @@
 			(type default)
 		)
 		(uuid "04f4ad0e-67ad-4baa-b4c9-6a266d0808b6")
+	)
+	(wire
+		(pts
+			(xy 325.12 226.06) (xy 337.82 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05102183-c19e-49c9-9e98-4a87bc9398eb")
 	)
 	(wire
 		(pts
@@ -5903,16 +5778,6 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 77.47) (xy 274.32 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0aacb8a2-67df-4843-9b74-bc8970fa8d89")
-	)
-	(wire
-		(pts
 			(xy 341.63 97.79) (xy 336.55 97.79)
 		)
 		(stroke
@@ -5920,6 +5785,16 @@
 			(type default)
 		)
 		(uuid "0b95d216-b986-45b6-84f5-a6231d876602")
+	)
+	(wire
+		(pts
+			(xy 396.24 116.84) (xy 396.24 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ba4d8c0-b492-4b9f-b541-fdd51f8f86de")
 	)
 	(wire
 		(pts
@@ -5950,6 +5825,16 @@
 			(type default)
 		)
 		(uuid "0dd166c4-f2e7-4909-a3fd-9754ce2a5b43")
+	)
+	(wire
+		(pts
+			(xy 336.55 172.72) (xy 341.63 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f88c161-e979-48b7-b263-6c8235980d85")
 	)
 	(wire
 		(pts
@@ -6063,6 +5948,16 @@
 	)
 	(wire
 		(pts
+			(xy 396.24 142.24) (xy 396.24 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13a2690e-d70c-493a-811a-f76de280917a")
+	)
+	(wire
+		(pts
 			(xy 77.47 138.43) (xy 77.47 144.78)
 		)
 		(stroke
@@ -6163,6 +6058,16 @@
 	)
 	(wire
 		(pts
+			(xy 309.88 172.72) (xy 317.5 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a9c2a73-f1be-45ff-bf5b-367cbcfb1d68")
+	)
+	(wire
+		(pts
 			(xy 372.11 116.84) (xy 364.49 116.84)
 		)
 		(stroke
@@ -6193,6 +6098,16 @@
 	)
 	(wire
 		(pts
+			(xy 364.49 163.83) (xy 364.49 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dfecbc1-d23f-419e-b687-dc922b0da3da")
+	)
+	(wire
+		(pts
 			(xy 22.86 224.79) (xy 27.94 224.79)
 		)
 		(stroke
@@ -6200,6 +6115,16 @@
 			(type default)
 		)
 		(uuid "1e4cea16-1ad6-4424-8e4d-c36755d12773")
+	)
+	(wire
+		(pts
+			(xy 372.11 167.64) (xy 364.49 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ef88312-db16-4522-8149-66fcb828ee8d")
 	)
 	(wire
 		(pts
@@ -6300,6 +6225,16 @@
 			(type default)
 		)
 		(uuid "2716cf4b-e353-483f-9c9d-a5d8fa3b29fa")
+	)
+	(wire
+		(pts
+			(xy 317.5 175.26) (xy 309.88 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27575d4a-be91-4995-a899-920537b82a0b")
 	)
 	(wire
 		(pts
@@ -6423,13 +6358,33 @@
 	)
 	(wire
 		(pts
-			(xy 381 134.62) (xy 381 135.89)
+			(xy 391.16 142.24) (xy 396.24 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3239231c-6cd8-46c7-81b7-fe3207babcef")
+	)
+	(wire
+		(pts
+			(xy 383.54 185.42) (xy 383.54 186.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3467c3bd-55db-4dfd-bc5e-7f9199647546")
+	)
+	(wire
+		(pts
+			(xy 391.16 139.7) (xy 396.24 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3538bdc0-e68f-4d4f-8842-6ed07b6bc87f")
 	)
 	(wire
 		(pts
@@ -6473,6 +6428,16 @@
 	)
 	(wire
 		(pts
+			(xy 341.63 175.26) (xy 341.63 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c5b8d9f-2b66-439d-8580-e40147175f97")
+	)
+	(wire
+		(pts
 			(xy 336.55 26.67) (xy 341.63 26.67)
 		)
 		(stroke
@@ -6513,7 +6478,7 @@
 	)
 	(wire
 		(pts
-			(xy 381 143.51) (xy 381 144.78)
+			(xy 383.54 194.31) (xy 383.54 195.58)
 		)
 		(stroke
 			(width 0)
@@ -6540,6 +6505,16 @@
 			(type default)
 		)
 		(uuid "4065e8e7-09e6-4049-ab8e-7d228d6b907a")
+	)
+	(wire
+		(pts
+			(xy 364.49 138.43) (xy 364.49 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40d5526c-6577-4ba3-81ba-f979d043df6b")
 	)
 	(wire
 		(pts
@@ -6823,6 +6798,16 @@
 	)
 	(wire
 		(pts
+			(xy 341.63 149.86) (xy 341.63 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5860ddf3-4a64-46c5-9632-37b356c1afad")
+	)
+	(wire
+		(pts
 			(xy 100.33 247.65) (xy 106.68 247.65)
 		)
 		(stroke
@@ -6890,6 +6875,16 @@
 			(type default)
 		)
 		(uuid "6222bce9-a486-4c6d-af7d-90bea9b8dd05")
+	)
+	(wire
+		(pts
+			(xy 336.55 198.12) (xy 341.63 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62c32fd5-e2df-420c-afcc-f68f4c469604")
 	)
 	(wire
 		(pts
@@ -7073,16 +7068,6 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 226.06) (xy 335.28 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7143b0fa-60f2-4fe9-a5b3-3d0d248cb8b6")
-	)
-	(wire
-		(pts
 			(xy 170.18 247.65) (xy 179.07 247.65)
 		)
 		(stroke
@@ -7100,16 +7085,6 @@
 			(type default)
 		)
 		(uuid "72e41962-16da-43b1-9cb0-dba3617a02a0")
-	)
-	(wire
-		(pts
-			(xy 325.12 185.42) (xy 337.82 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73bd3af8-5baf-446a-b597-9a34e512bd17")
 	)
 	(wire
 		(pts
@@ -7193,6 +7168,16 @@
 	)
 	(wire
 		(pts
+			(xy 309.88 198.12) (xy 317.5 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dbf3538-3580-4e69-938b-c38d8197ccbd")
+	)
+	(wire
+		(pts
 			(xy 46.99 48.26) (xy 50.8 48.26)
 		)
 		(stroke
@@ -7210,6 +7195,16 @@
 			(type default)
 		)
 		(uuid "7fc19f29-6bef-425d-93ea-1590bfeac3cd")
+	)
+	(wire
+		(pts
+			(xy 391.16 116.84) (xy 396.24 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "828f12d9-b5e7-49db-850e-c4a6167f2993")
 	)
 	(wire
 		(pts
@@ -7273,16 +7268,6 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 193.04) (xy 347.98 196.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85d47834-9fbd-4895-b80c-6b8e07128374")
-	)
-	(wire
-		(pts
 			(xy 100.33 267.97) (xy 100.33 269.24)
 		)
 		(stroke
@@ -7303,7 +7288,7 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 26.67) (xy 355.6 149.86)
+			(xy 355.6 26.67) (xy 355.6 200.66)
 		)
 		(stroke
 			(width 0)
@@ -7353,16 +7338,6 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 231.14) (xy 345.44 234.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a0a5350-d98c-4da1-822c-037b6a615e93")
-	)
-	(wire
-		(pts
 			(xy 160.02 175.26) (xy 167.64 175.26)
 		)
 		(stroke
@@ -7370,6 +7345,16 @@
 			(type default)
 		)
 		(uuid "8a6cc657-e2ed-4b12-96dc-b191d26a8b9b")
+	)
+	(wire
+		(pts
+			(xy 364.49 165.1) (xy 372.11 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bc2a849-8b52-437d-b89e-640bacc137cb")
 	)
 	(wire
 		(pts
@@ -7410,6 +7395,16 @@
 			(type default)
 		)
 		(uuid "8ef659b5-2b1a-46f7-82a2-dc8f094a6b76")
+	)
+	(wire
+		(pts
+			(xy 336.55 149.86) (xy 341.63 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8eff9898-809e-4251-9bbd-9d63dbf84a9d")
 	)
 	(wire
 		(pts
@@ -7553,6 +7548,16 @@
 	)
 	(wire
 		(pts
+			(xy 364.49 167.64) (xy 364.49 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97581343-64e1-4c54-88b5-fec09ea0b767")
+	)
+	(wire
+		(pts
 			(xy 264.16 74.93) (xy 274.32 74.93)
 		)
 		(stroke
@@ -7603,6 +7608,16 @@
 	)
 	(wire
 		(pts
+			(xy 364.49 139.7) (xy 372.11 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fdce83a-c54a-435e-a4be-c851c334fd4d")
+	)
+	(wire
+		(pts
 			(xy 309.88 146.05) (xy 309.88 147.32)
 		)
 		(stroke
@@ -7630,6 +7645,16 @@
 			(type default)
 		)
 		(uuid "a2b29cf3-a6be-431b-a9d9-1439e4bf5669")
+	)
+	(wire
+		(pts
+			(xy 372.11 142.24) (xy 364.49 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2cbf225-da02-4555-ad06-b91741603eb1")
 	)
 	(wire
 		(pts
@@ -7700,6 +7725,16 @@
 			(type default)
 		)
 		(uuid "a905329c-40fa-4a3c-859a-70b1db8f7d34")
+	)
+	(wire
+		(pts
+			(xy 336.55 200.66) (xy 355.6 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa20bb29-9119-46ce-9a85-7e70e9cc3bfe")
 	)
 	(wire
 		(pts
@@ -7901,15 +7936,15 @@
 		)
 		(uuid "b9655f23-2d03-463a-aa8f-7ff9cc467ae1")
 	)
-	(polyline
+	(wire
 		(pts
-			(xy 299.974 167.894) (xy 407.924 167.894)
+			(xy 391.16 165.1) (xy 396.24 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b9ac2d3c-20b9-46dd-a4da-c95a2bdc49db")
+		(uuid "badf7e7b-a66c-4b7a-9ba0-68f588d745db")
 	)
 	(wire
 		(pts
@@ -8193,6 +8228,16 @@
 	)
 	(wire
 		(pts
+			(xy 309.88 171.45) (xy 309.88 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7be4f06-4a66-4645-9485-880f0558abac")
+	)
+	(wire
+		(pts
 			(xy 396.24 91.44) (xy 396.24 114.3)
 		)
 		(stroke
@@ -8210,6 +8255,16 @@
 			(type default)
 		)
 		(uuid "d8d8cd1f-4e94-4654-9245-3604f98a700b")
+	)
+	(wire
+		(pts
+			(xy 309.88 200.66) (xy 309.88 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8e657a4-c996-41ab-a121-f4c92493a332")
 	)
 	(wire
 		(pts
@@ -8351,6 +8406,16 @@
 		)
 		(uuid "e56f2b52-58fc-446a-beb2-0bf2655d13c6")
 	)
+	(wire
+		(pts
+			(xy 309.88 196.85) (xy 309.88 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e63f3075-73fa-45a7-91f2-6e75dd7e80c2")
+	)
 	(polyline
 		(pts
 			(xy 299.974 253.238) (xy 299.974 212.852)
@@ -8433,6 +8498,16 @@
 	)
 	(wire
 		(pts
+			(xy 317.5 200.66) (xy 309.88 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1c40967-6b3c-40a0-a8db-0b8f65c7e9bc")
+	)
+	(wire
+		(pts
 			(xy 309.88 22.86) (xy 309.88 24.13)
 		)
 		(stroke
@@ -8493,16 +8568,6 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 231.14) (xy 345.44 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3c413a9-6c94-42af-b925-3afaf53ad827")
-	)
-	(wire
-		(pts
 			(xy 203.2 115.57) (xy 213.36 115.57)
 		)
 		(stroke
@@ -8553,16 +8618,6 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 149.86) (xy 336.55 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7f7cb52-3d40-432b-8838-e58b82303616")
-	)
-	(wire
-		(pts
 			(xy 148.59 247.65) (xy 157.48 247.65)
 		)
 		(stroke
@@ -8601,6 +8656,16 @@
 		)
 		(uuid "faebd9ab-079c-4836-8010-cc138c702d41")
 	)
+	(wire
+		(pts
+			(xy 336.55 175.26) (xy 341.63 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc220e85-ded2-47d5-b50f-26d865d21a24")
+	)
 	(polyline
 		(pts
 			(xy 181.356 228.854) (xy 202.692 228.854)
@@ -8620,16 +8685,6 @@
 			(type default)
 		)
 		(uuid "fcd9a0e0-b4f7-4d7b-9365-e4452fc9f800")
-	)
-	(wire
-		(pts
-			(xy 342.9 226.06) (xy 349.25 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fced0118-cbe8-4fbe-93be-59619d8512dd")
 	)
 	(wire
 		(pts
@@ -8670,6 +8725,16 @@
 			(type default)
 		)
 		(uuid "fed8f617-c03d-4dad-b3ce-e26d348d541e")
+	)
+	(wire
+		(pts
+			(xy 347.98 233.68) (xy 347.98 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff454637-a8ed-40f0-a84e-9c8004bd2a89")
 	)
 	(wire
 		(pts
@@ -8770,6 +8835,16 @@
 			(justify left bottom)
 		)
 		(uuid "302fe225-61ae-4fac-8d2d-afcbfb5b17d3")
+	)
+	(label "USR_SWTCH"
+		(at 325.12 226.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3deaa6dc-fef7-4c7d-ba6a-54ec0bca0054")
 	)
 	(label "GPIO26"
 		(at 179.07 257.81 0)
@@ -9101,16 +9176,6 @@
 		)
 		(uuid "c308a477-cf82-4f7c-9644-e081135c1417")
 	)
-	(label "BUZZ"
-		(at 323.85 226.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c4d8c303-15fa-45bb-8a61-082cc9ea110c")
-	)
 	(label "SWDIO"
 		(at 203.2 148.59 0)
 		(effects
@@ -9130,16 +9195,6 @@
 			(justify right bottom)
 		)
 		(uuid "cbf01f3c-c323-40ce-84bd-93dfbe24f6a6")
-	)
-	(label "USR_SWTCH"
-		(at 325.12 185.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cbf8214a-561d-48c3-9fe4-df02a4ab2551")
 	)
 	(label "QSPI_SD0"
 		(at 119.38 191.77 0)
@@ -9200,16 +9255,6 @@
 			(justify left bottom)
 		)
 		(uuid "e052fcd6-3969-4927-b606-e53165ebc97d")
-	)
-	(label "BUZZ"
-		(at 274.32 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e98a9cad-d1ee-4051-8371-57fae033adc4")
 	)
 	(label "QSPI_SD2"
 		(at 203.2 118.11 0)
@@ -9283,7 +9328,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0130c5a3-353a-456c-8192-d0999c19df61")
-		(property "Reference" "GPIO1"
+		(property "Reference" "J3"
 			(at 163.83 238.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9420,7 +9465,7 @@
 		(instances
 			(project "rpi2040-devboard"
 				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
-					(reference "GPIO1")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -10004,6 +10049,136 @@
 			(project "rpi2040-devboard"
 				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:TS-1187A-B-A-B")
+		(at 342.9 228.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "10be5cd0-d594-43d7-b00c-3cbcdd179712")
+		(property "Reference" "SW3"
+			(at 342.9 221.742 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS-1187A-B-A-B"
+			(at 342.9 221.742 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
+			(at 342.9 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_XKB-Enterprise-TS-1187-B-A-A_C318884.html"
+			(at 342.9 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 342.9 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XKB Connection(中国星坤)"
+			(at 342.9 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TS-1187A-B-A-B"
+			(at 342.9 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C318884"
+			(at 342.9 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 342.9 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "45088578-1c1c-4e0d-b148-51133383561f")
+		)
+		(pin "4"
+			(uuid "585d6c74-9467-41f9-bdd8-4c93631ae1f1")
+		)
+		(pin "3"
+			(uuid "9ef87be6-7723-4c21-acae-f4af62640e49")
+		)
+		(pin "2"
+			(uuid "6f0b7c6c-d59f-415b-9b73-71bf7cb28930")
+		)
+		(instances
+			(project "rpi2040-devboard"
+				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -11236,8 +11411,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 381 139.7 0)
+		(lib_id "power:VBUS")
+		(at 364.49 163.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11246,31 +11421,30 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "27b98045-efb8-4572-b975-4b48fb91f5ec")
-		(property "Reference" "C22"
-			(at 384.81 138.4299 0)
+		(uuid "27545b66-7c5c-4e9e-9f9c-ddfe9b9f2ee3")
+		(property "Reference" "#PWR082"
+			(at 364.49 167.64 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 384.81 140.9699 0)
+		(property "Value" "VBUS"
+			(at 364.49 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 381.9652 143.51 0)
+		(property "Footprint" ""
+			(at 364.49 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11281,7 +11455,86 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 381 139.7 0)
+			(at 364.49 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 364.49 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9f89a54b-93ee-43e4-8ee8-59c1abcc77ad")
+		)
+		(instances
+			(project "rpi2040-devboard"
+				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
+					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 383.54 190.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27b98045-efb8-4572-b975-4b48fb91f5ec")
+		(property "Reference" "C22"
+			(at 387.35 189.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 387.35 191.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 384.5052 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 383.54 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11292,7 +11545,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 381 139.7 0)
+			(at 383.54 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11303,7 +11556,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 381 139.7 0)
+			(at 383.54 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11314,7 +11567,7 @@
 			)
 		)
 		(property "MPN" "CC0603KRX7R9BB104"
-			(at 381 139.7 0)
+			(at 383.54 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11325,7 +11578,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 381 139.7 0)
+			(at 383.54 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11507,6 +11760,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 364.49 138.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b17e6ec-6d20-4628-96e8-d9da8c9f9cbc")
+		(property "Reference" "#PWR080"
+			(at 364.49 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 364.49 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 364.49 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 364.49 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 364.49 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bded5ee7-5dbe-42c1-b421-724d618354c4")
+		)
+		(instances
+			(project "rpi2040-devboard"
+				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 115.57 134.62 0)
 		(unit 1)
@@ -11622,6 +11953,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 347.98 237.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2bb82b47-6630-4389-a325-b493aa505bd6")
+		(property "Reference" "#PWR069"
+			(at 347.98 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 347.98 242.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 347.98 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 347.98 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 347.98 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "788d5a2e-2dd6-4bf1-9905-a47970e950fb")
+		)
+		(instances
+			(project "rpi2040-devboard"
+				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 133.35 44.45 0)
 		(unit 1)
@@ -11731,119 +12140,6 @@
 			(project "rpi2040-devboard"
 				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 339.09 226.06 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2cbc5164-b986-4404-b3d0-dfd48d52ec33")
-		(property "Reference" "R9"
-			(at 339.09 219.71 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 339.09 222.25 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 339.09 227.838 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 339.09 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 339.09 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 339.09 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RC0603FR-071KL"
-			(at 339.09 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C22548"
-			(at 339.09 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c3b36027-9686-443e-b938-1a22167ef457")
-		)
-		(pin "2"
-			(uuid "c33237f8-0d70-4e34-8bab-4f9ad3c0d679")
-		)
-		(instances
-			(project "rpi2040-devboard"
-				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
-					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -12000,6 +12296,136 @@
 			(project "rpi2040-devboard"
 				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:XL-1615RGBC-WS2812B")
+		(at 326.39 199.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f11298a-2aa5-4ba9-a968-69d90cd09a39")
+		(property "Reference" "LED14"
+			(at 327.025 190.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XL-1615RGBC-WS2812B"
+			(at 327.025 193.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+			(at 326.39 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5349954.pdf"
+			(at 326.39 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 326.39 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
+			(at 326.39 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-1615RGBC-2812B"
+			(at 326.39 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5349954"
+			(at 326.39 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5349954"
+			(at 326.39 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "cff05caf-01a1-40a7-be27-50808508f39d")
+		)
+		(pin "2"
+			(uuid "09a652de-5e57-4b47-b37d-12d0b465a44f")
+		)
+		(pin "1"
+			(uuid "f76383e9-30bd-444a-bf48-f416b37f376a")
+		)
+		(pin "4"
+			(uuid "784b9d5e-8d6a-440d-a033-ab3c07f574f5")
+		)
+		(instances
+			(project "rpi2040-devboard"
+				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
+					(reference "LED14")
 					(unit 1)
 				)
 			)
@@ -12241,84 +12667,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 347.98 196.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "37b34bf3-1c1b-4fba-a92b-dc130e67b3de")
-		(property "Reference" "#PWR068"
-			(at 347.98 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 347.98 201.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 347.98 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 347.98 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 347.98 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "adc232fc-abea-4bed-9e31-d9b8ec72a01b")
-		)
-		(instances
-			(project "rpi2040-devboard"
-				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
-					(reference "#PWR068")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 64.77 82.55 0)
 		(unit 1)
 		(body_style 1)
@@ -12552,132 +12900,6 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:KMTG1203")
-		(at 354.33 228.6 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3a0fac47-e75d-468e-a754-af1ad193275c")
-		(property "Reference" "BUZZER1"
-			(at 360.68 227.3299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "KMTG1203"
-			(at 360.68 229.8699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:BUZ-TH_L12.0-W12.0"
-			(at 354.33 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C7421651.pdf"
-			(at 354.33 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 354.33 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "KINGSTATE(志丰电子)"
-			(at 354.33 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "KMTG1203"
-			(at 354.33 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C7421651"
-			(at 354.33 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C7421651"
-			(at 354.33 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "acded282-1a90-420a-8286-b232c50476bf")
-		)
-		(pin "1"
-			(uuid "d998e7ad-8fe8-4f8e-9896-4c505587ea30")
-		)
-		(instances
-			(project "rpi2040-devboard"
-				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
-					(reference "BUZZER1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 351.79 24.13 90)
 		(unit 1)
@@ -12880,7 +13102,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4696dadd-c5a2-419c-9557-0333fad3e8a9")
-		(property "Reference" "SWD1"
+		(property "Reference" "J2"
 			(at 162.56 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12981,7 +13203,7 @@
 		(instances
 			(project "rpi2040-devboard"
 				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
-					(reference "SWD1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -13383,7 +13605,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bcddc63-2c8c-4262-bb67-6f92a6966af4")
-		(property "Reference" "VBUS1"
+		(property "Reference" "TP1"
 			(at 109.22 234.1879 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13477,7 +13699,7 @@
 		(instances
 			(project "rpi2040-devboard"
 				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
-					(reference "VBUS1")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -14504,8 +14726,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 345.44 234.95 0)
+		(lib_id "power:VBUS")
+		(at 309.88 196.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14514,9 +14736,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5e324128-21e2-4335-863c-f9d5342b1b3e")
-		(property "Reference" "#PWR069"
-			(at 345.44 241.3 0)
+		(uuid "6183387c-bd40-4c9f-8027-80a0943b2a34")
+		(property "Reference" "#PWR086"
+			(at 309.88 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14526,8 +14748,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 345.44 240.03 0)
+		(property "Value" "VBUS"
+			(at 309.88 191.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14537,7 +14759,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 345.44 234.95 0)
+			(at 309.88 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14548,7 +14770,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 345.44 234.95 0)
+			(at 309.88 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14558,8 +14780,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 345.44 234.95 0)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 309.88 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14570,12 +14792,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "875eb898-89ae-4e11-b075-0baf874641ac")
+			(uuid "639e2d6a-e469-4403-9105-42fb5b4fe08c")
 		)
 		(instances
 			(project "rpi2040-devboard"
 				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
-					(reference "#PWR069")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -14962,6 +15184,84 @@
 			(project "rpi2040-devboard"
 				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 309.88 171.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65aadbf6-5561-4b4b-8891-33d9232355a7")
+		(property "Reference" "#PWR084"
+			(at 309.88 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 309.88 166.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 309.88 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 309.88 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 309.88 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "95900cf9-86bb-46bf-93dd-aa3c46427fcb")
+		)
+		(instances
+			(project "rpi2040-devboard"
+				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -15755,6 +16055,136 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:XL-1615RGBC-WS2812B")
+		(at 381 166.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7965f73a-75b0-44c0-adef-ea91e095c54d")
+		(property "Reference" "LED12"
+			(at 381.635 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XL-1615RGBC-WS2812B"
+			(at 381.635 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+			(at 381 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5349954.pdf"
+			(at 381 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 381 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
+			(at 381 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-1615RGBC-2812B"
+			(at 381 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5349954"
+			(at 381 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5349954"
+			(at 381 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "185d3af3-655e-47b9-b528-fc3a514cb1d2")
+		)
+		(pin "2"
+			(uuid "9cd13dbc-c6f3-4ade-ab45-6a16aa023057")
+		)
+		(pin "1"
+			(uuid "b6ce29ab-3cf3-4ad8-986b-a5768d6c7f63")
+		)
+		(pin "4"
+			(uuid "9a93a097-50f8-4ae9-a302-049f6d4ae8c9")
+		)
+		(instances
+			(project "rpi2040-devboard"
+				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
+					(reference "LED12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 50.8 177.8 0)
 		(unit 1)
@@ -16460,6 +16890,136 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:XL-1615RGBC-WS2812B")
+		(at 326.39 173.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c02924a-90cd-40ba-985e-d939719886f3")
+		(property "Reference" "LED13"
+			(at 327.025 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XL-1615RGBC-WS2812B"
+			(at 327.025 167.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+			(at 326.39 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5349954.pdf"
+			(at 326.39 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 326.39 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
+			(at 326.39 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-1615RGBC-2812B"
+			(at 326.39 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5349954"
+			(at 326.39 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5349954"
+			(at 326.39 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "ee931f2d-6ae9-4c4d-8c73-dad0e4ff1afe")
+		)
+		(pin "2"
+			(uuid "f65687ff-a5fb-4fd2-a051-9c292f5c45be")
+		)
+		(pin "1"
+			(uuid "012bd407-5319-4d50-a7fb-8a838aa5064e")
+		)
+		(pin "4"
+			(uuid "6bfa29d6-d426-483a-99f0-242320e3670e")
+		)
+		(instances
+			(project "rpi2040-devboard"
+				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
+					(reference "LED13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:XL-1615RGBC-WS2812B")
 		(at 381 90.17 0)
 		(unit 1)
 		(body_style 1)
@@ -16668,7 +17228,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 381 144.78 0)
+		(at 383.54 195.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16679,7 +17239,7 @@
 		(fields_autoplaced yes)
 		(uuid "972813e5-e63e-4d0d-aaac-81868556f399")
 		(property "Reference" "#PWR064"
-			(at 381 151.13 0)
+			(at 383.54 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16690,7 +17250,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 381 149.86 0)
+			(at 383.54 200.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16700,7 +17260,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 381 144.78 0)
+			(at 383.54 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16711,7 +17271,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 381 144.78 0)
+			(at 383.54 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16722,7 +17282,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 381 144.78 0)
+			(at 383.54 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17227,7 +17787,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a1602ee8-0b5b-4251-9662-a7de7886ff53")
-		(property "Reference" "RESET1"
+		(property "Reference" "SW1"
 			(at 121.92 77.978 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17322,7 +17882,85 @@
 		(instances
 			(project "rpi2040-devboard"
 				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
-					(reference "RESET1")
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 364.49 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a68e3584-3000-4253-b4a1-8041abb195de")
+		(property "Reference" "#PWR081"
+			(at 364.49 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 364.49 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 364.49 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 364.49 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 364.49 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "711e4d71-f00e-4c3e-a7c2-a5cbbe67c139")
+		)
+		(instances
+			(project "rpi2040-devboard"
+				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -18224,7 +18862,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5a2576d-c98c-4862-868d-917e147d2bc9")
-		(property "Reference" "1v1"
+		(property "Reference" "TP3"
 			(at 109.22 253.2379 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18318,7 +18956,7 @@
 		(instances
 			(project "rpi2040-devboard"
 				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
-					(reference "1v1")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -18838,7 +19476,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c184098c-3e12-43db-a019-c4e76596df95")
-		(property "Reference" "GND1"
+		(property "Reference" "TP4"
 			(at 109.22 263.3979 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18932,7 +19570,7 @@
 		(instances
 			(project "rpi2040-devboard"
 				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
-					(reference "GND1")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -19615,7 +20253,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "caf58183-fda8-4736-b09a-60083d33d111")
-		(property "Reference" "BOOTSEL1"
+		(property "Reference" "SW2"
 			(at 91.44 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19710,137 +20348,7 @@
 		(instances
 			(project "rpi2040-devboard"
 				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
-					(reference "BOOTSEL1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:TS-1187A-B-A-B")
-		(at 342.9 187.96 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d0406b2f-2757-481f-ba8b-056dcf65638c")
-		(property "Reference" "USR1"
-			(at 342.9 181.102 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TS-1187A-B-A-B"
-			(at 342.9 181.102 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
-			(at 342.9 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_XKB-Enterprise-TS-1187-B-A-A_C318884.html"
-			(at 342.9 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 342.9 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "XKB Connection(中国星坤)"
-			(at 342.9 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "TS-1187A-B-A-B"
-			(at 342.9 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C318884"
-			(at 342.9 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 342.9 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2971b86e-de76-41b0-b747-84d60f483882")
-		)
-		(pin "4"
-			(uuid "4cece609-3aab-4aaa-ba6c-85b57402f746")
-		)
-		(pin "3"
-			(uuid "87d7eed0-0aee-465e-a167-1db19a7a7a04")
-		)
-		(pin "2"
-			(uuid "55b8ecd0-e5ce-4ceb-a833-7185997e5bfd")
-		)
-		(instances
-			(project "rpi2040-devboard"
-				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
-					(reference "USR1")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -20211,6 +20719,136 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:XL-1615RGBC-WS2812B")
+		(at 381 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d95bbbdb-fa73-4f78-9b24-e4fd3496c7c9")
+		(property "Reference" "LED11"
+			(at 381.635 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XL-1615RGBC-WS2812B"
+			(at 381.635 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+			(at 381 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5349954.pdf"
+			(at 381 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 381 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
+			(at 381 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-1615RGBC-2812B"
+			(at 381 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5349954"
+			(at 381 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5349954"
+			(at 381 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "b81350d8-f5a9-44ac-8946-8f15215df411")
+		)
+		(pin "2"
+			(uuid "fcba1b7f-6ef6-40be-b092-d653de54140f")
+		)
+		(pin "1"
+			(uuid "847009a1-28e2-42eb-ac70-64c32a206992")
+		)
+		(pin "4"
+			(uuid "a935429f-7d5e-438a-89a4-6a23618e71fa")
+		)
+		(instances
+			(project "rpi2040-devboard"
+				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
+					(reference "LED11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 120.65 49.53 0)
 		(unit 1)
@@ -20493,7 +21131,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df1253b0-2067-4353-9cf2-3e91b4bb47c6")
-		(property "Reference" "3v3"
+		(property "Reference" "TP2"
 			(at 109.22 243.0779 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20587,7 +21225,85 @@
 		(instances
 			(project "rpi2040-devboard"
 				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
-					(reference "3v3")
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 309.88 201.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0f565ac-b50c-4b76-b019-95abf3e657d1")
+		(property "Reference" "#PWR087"
+			(at 309.88 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 309.88 207.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 309.88 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 309.88 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 309.88 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "37c57df3-473f-4e3a-b81f-bd24315d37e7")
+		)
+		(instances
+			(project "rpi2040-devboard"
+				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -21290,8 +22006,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 381 134.62 0)
+		(lib_id "power:GND")
+		(at 309.88 176.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21300,9 +22016,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ecdccfaa-9ae8-4415-a7aa-5a7471128123")
-		(property "Reference" "#PWR063"
-			(at 381 138.43 0)
+		(uuid "ebda73a2-deb5-422d-bbd4-9fb73b301835")
+		(property "Reference" "#PWR085"
+			(at 309.88 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21312,8 +22028,8 @@
 				)
 			)
 		)
-		(property "Value" "VBUS"
-			(at 381 129.54 0)
+		(property "Value" "GND"
+			(at 309.88 181.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21323,7 +22039,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 381 134.62 0)
+			(at 309.88 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21334,7 +22050,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 381 134.62 0)
+			(at 309.88 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 309.88 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7a74d93b-ab76-4a27-9cb8-1905fe298b25")
+		)
+		(instances
+			(project "rpi2040-devboard"
+				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
+					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 383.54 185.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ecdccfaa-9ae8-4415-a7aa-5a7471128123")
+		(property "Reference" "#PWR063"
+			(at 383.54 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 383.54 180.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 383.54 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 383.54 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21345,7 +22139,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 381 134.62 0)
+			(at 383.54 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21841,6 +22635,84 @@
 			(project "rpi2040-devboard"
 				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 364.49 168.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb3239f6-e8d0-49cc-b0fc-18c0e3e1d95e")
+		(property "Reference" "#PWR083"
+			(at 364.49 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 364.49 173.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 364.49 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 364.49 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 364.49 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a142a7fb-e2fc-41f5-975f-09214c7bb223")
+		)
+		(instances
+			(project "rpi2040-devboard"
+				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
