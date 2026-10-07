@@ -1603,7 +1603,6 @@
 				)
 			)
 		)
-		(path "/caf58183-fda8-4736-b09a-60083d33d111")
 		(sheetname "/")
 		(sheetfile "rpi2040-devboard.kicad_sch")
 		(units
@@ -1818,7 +1817,7 @@
 		(property "Reference" "R6"
 			(at 2.925 0 90)
 			(layer "F.SilkS")
-			(uuid "9be513b1-beb8-40a4-916b-1da43414463d")
+			(uuid "2a94e58f-14cf-4c59-a1cb-c5ccac53e247")
 			(effects
 				(font
 					(size 1 1)
@@ -1829,7 +1828,7 @@
 		(property "Value" "1k"
 			(at 0 1.43 90)
 			(layer "F.Fab")
-			(uuid "00dac00f-bcb8-4437-a305-b5198a1e1e6b")
+			(uuid "56c3fe4a-6507-4590-8bae-c6e98f570f81")
 			(effects
 				(font
 					(size 1 1)
@@ -1841,7 +1840,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "28e81739-b4e9-4501-8757-c7dac5fdde82")
+			(uuid "712ced92-f690-42cb-87b1-542b16598e8c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1852,7 +1851,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a4264d06-f884-44e3-91e0-6bf0e7ec23a6")
+			(uuid "0de64ccc-f634-4828-b31b-f7bca8322b45")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1871,7 +1870,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1884,7 +1883,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF1001T5E"
+		(property "MPN" "RC0603FR-071KL"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1897,7 +1896,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C21190"
+		(property "LCSC" "C22548"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1911,7 +1910,6 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/1cc56a4c-6cf1-4172-ba39-f858a86e37e3")
 		(sheetname "/")
 		(sheetfile "rpi2040-devboard.kicad_sch")
 		(units
@@ -2015,7 +2013,7 @@
 		(property "Reference" "R9"
 			(at -2.525 -0.1 90)
 			(layer "F.SilkS")
-			(uuid "c374bbf9-e41c-4517-87ec-7fbc1e590ff3")
+			(uuid "08d7d159-3f5f-47ec-9a08-466bc22d9645")
 			(effects
 				(font
 					(size 1 1)
@@ -2026,7 +2024,7 @@
 		(property "Value" "1k"
 			(at 0 1.43 90)
 			(layer "F.Fab")
-			(uuid "b4e58fc4-6800-47d3-aeee-21a8228f1e8c")
+			(uuid "4f1dda07-cfca-4d70-80b1-0c53a7bec55c")
 			(effects
 				(font
 					(size 1 1)
@@ -2038,7 +2036,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e5ed8e86-3a0b-4715-a7e7-05ee5ef8155d")
+			(uuid "50a5fe2f-ff54-4270-bd29-4120733d5718")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2049,7 +2047,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "60310b49-3bd9-4254-a54b-adaca9dc2588")
+			(uuid "abd0e36f-5c81-47da-9dc6-d2b139e305ea")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2068,7 +2066,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2081,7 +2079,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF1001T5E"
+		(property "MPN" "RC0603FR-071KL"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2094,7 +2092,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C21190"
+		(property "LCSC" "C22548"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2108,7 +2106,6 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/79f655d9-4d07-4104-921d-b23794a76361")
 		(sheetname "/")
 		(sheetfile "rpi2040-devboard.kicad_sch")
 		(units
@@ -2742,7 +2739,7 @@
 		(property "Reference" "J1"
 			(at -6.4 1.1 0)
 			(layer "F.SilkS")
-			(uuid "3272febc-4a4d-47c5-898d-d6db708effe3")
+			(uuid "7dda4c83-d5c9-46c6-bc59-27c8fe9510ba")
 			(effects
 				(font
 					(size 1 1)
@@ -2753,7 +2750,7 @@
 		(property "Value" "USB_C_Receptacle_USB2.0_16P"
 			(at 0 5.1 0)
 			(layer "F.Fab")
-			(uuid "ff51e9ff-9735-4fe3-8524-79f9655b6296")
+			(uuid "ebe7d974-cf80-4d4c-9f5f-00510cd085e4")
 			(effects
 				(font
 					(size 1 1)
@@ -2766,7 +2763,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f586ccfc-1451-4ae0-a2e6-aab59bb937c6")
+			(uuid "7ffd0e9c-e003-4760-8a5a-c01e1f778c49")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2779,7 +2776,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3d9d9e2d-9eaa-48f6-a812-a31a7524f1f7")
+			(uuid "35bcb426-ff7a-425c-927c-c0d7e4e1cda4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3422,7 +3419,7 @@
 		(property "Reference" "R5"
 			(at -2.779167 -0.025 90)
 			(layer "F.SilkS")
-			(uuid "f63b53a3-185a-490b-bcad-22fdde355744")
+			(uuid "c8a3f86c-b116-4abb-a3e5-765bcc288745")
 			(effects
 				(font
 					(size 1 1)
@@ -3433,7 +3430,7 @@
 		(property "Value" "27"
 			(at 0 1.43 90)
 			(layer "F.Fab")
-			(uuid "676e0989-6398-4d3f-b2d0-11e4300f3d16")
+			(uuid "ac4d3918-e66b-4860-8ca1-fabd21dde656")
 			(effects
 				(font
 					(size 1 1)
@@ -3445,7 +3442,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a3cc4bf3-bb85-41cb-8ae0-0938a3236825")
+			(uuid "12c9e413-772f-4cd6-a495-b64e75c43915")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3456,7 +3453,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3f85953e-be53-4c1d-97a2-95dc0f54d19f")
+			(uuid "46c4cd81-f046-46b0-a5fe-a2020d4f67ad")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3488,7 +3485,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF270JT5E"
+		(property "MPN" "CQ03WAF270JT5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3501,7 +3498,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25190"
+		(property "LCSC" "C2770847"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4210,7 +4207,7 @@
 		(property "Reference" "R7"
 			(at 0 1.4 0)
 			(layer "F.SilkS")
-			(uuid "e8bcfb93-c1b6-4d1c-8239-fe084e790ad8")
+			(uuid "73eb4536-dd26-4f16-9584-02cc85270180")
 			(effects
 				(font
 					(size 1 1)
@@ -4221,7 +4218,7 @@
 		(property "Value" "1k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
-			(uuid "ec6b3fce-60c4-49e7-8313-5dd2281a8804")
+			(uuid "a177bbd1-2b33-40b2-8b0a-f19d71fa01b7")
 			(effects
 				(font
 					(size 1 1)
@@ -4233,7 +4230,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ba63f89e-ea0c-4a71-a22b-1644b277b984")
+			(uuid "118cec2c-3dba-4c0e-a284-2df6ef35efad")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4244,7 +4241,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2d7538cf-82b7-4c61-b3c9-cdf501292497")
+			(uuid "9f01da00-5e80-4ab6-b776-f80abe43c8ec")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4263,7 +4260,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4276,7 +4273,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF1001T5E"
+		(property "MPN" "RC0603FR-071KL"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4289,7 +4286,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C21190"
+		(property "LCSC" "C22548"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4372,7 +4369,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(R7-Pad1)")
+			(net "Net-(BOOTSEL1-Pad2)")
 			(pintype "passive")
 			(uuid "2e5bedd0-6acf-4643-bd8a-37736d8571dc")
 		)
@@ -4886,7 +4883,6 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
-		(path "/4bcddc63-2c8c-4262-bb67-6f92a6966af4")
 		(sheetname "/")
 		(sheetfile "rpi2040-devboard.kicad_sch")
 		(units
@@ -5496,7 +5492,6 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
-		(path "/c184098c-3e12-43db-a019-c4e76596df95")
 		(sheetname "/")
 		(sheetfile "rpi2040-devboard.kicad_sch")
 		(units
@@ -5559,7 +5554,7 @@
 		(property "Reference" "U3"
 			(at 0 -3.6 0)
 			(layer "F.SilkS")
-			(uuid "b3783d77-d610-4ad7-b051-f723321d2993")
+			(uuid "cd7655b6-17c9-4a04-8e6b-6be508e07c23")
 			(effects
 				(font
 					(size 1 1)
@@ -5570,7 +5565,7 @@
 		(property "Value" "W25Q128JVSIQ"
 			(at 0 3.6 0)
 			(layer "F.Fab")
-			(uuid "97522cd7-3972-42db-8750-4c0edb71875c")
+			(uuid "d04564ca-fd81-4a71-9623-78080b56dffe")
 			(effects
 				(font
 					(size 1 1)
@@ -5582,7 +5577,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0bae41b5-e378-4c9c-bec5-b80e0bdcee20")
+			(uuid "dee6c609-044d-47d5-86fc-7537ca61806d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5593,7 +5588,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f5535930-a1ea-44dc-9d76-aa8c19f7ef56")
+			(uuid "ea00ce83-7f22-446b-9892-167bc5672513")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5638,7 +5633,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C97521"
+		(property "LCSC" "C113767"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5980,7 +5975,7 @@
 		(property "Reference" "C13"
 			(at 3.6 0 90)
 			(layer "F.SilkS")
-			(uuid "a5e87650-6949-402a-af86-63b4aaa81de4")
+			(uuid "2cbbe8e7-5e0b-4ecc-b8a0-21a2a6e46a09")
 			(effects
 				(font
 					(size 1 1)
@@ -5991,7 +5986,7 @@
 		(property "Value" "1uF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
-			(uuid "0cc42468-35a6-418a-9df5-4fd9637ae68a")
+			(uuid "7dff1840-1583-4bda-8d86-0a5f7b973fae")
 			(effects
 				(font
 					(size 1 1)
@@ -6003,7 +5998,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c34b2835-9ef1-4422-95f1-e31931ed055f")
+			(uuid "be0117a8-9dbc-4863-b9a5-64f5062cf54a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6014,7 +6009,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "49a5fd39-b5ac-44ef-bdd1-269d27e8827e")
+			(uuid "25cc6b74-2cf2-4e13-b3fd-ceae44a1b221")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6033,7 +6028,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6046,7 +6041,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL10A105KB8NNNC"
+		(property "MPN" "CC0603KRX5R9BB105"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6059,7 +6054,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C128624"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6993,7 +6988,6 @@
 			)
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
-		(path "/4696dadd-c5a2-419c-9557-0333fad3e8a9")
 		(sheetname "/")
 		(sheetfile "rpi2040-devboard.kicad_sch")
 		(units
@@ -7585,7 +7579,7 @@
 		(property "Reference" "U1"
 			(at -3.35 -4.9375 0)
 			(layer "F.SilkS")
-			(uuid "b9da3cc9-9ad8-4a15-ace3-956400ea6467")
+			(uuid "d81db00e-0fee-4b4e-b4ca-f8f6bcf6f89e")
 			(effects
 				(font
 					(size 1 1)
@@ -7596,7 +7590,7 @@
 		(property "Value" "RP2040"
 			(at 0 4.83 0)
 			(layer "F.Fab")
-			(uuid "47aba722-1611-4ba5-8f68-17ebeec2af6d")
+			(uuid "7d030b76-c011-41bc-b0f6-df8f39666f21")
 			(effects
 				(font
 					(size 1 1)
@@ -7608,7 +7602,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c91db11f-179c-4915-bc41-67497aa53c1a")
+			(uuid "fdcda32a-abb4-4650-9379-badcc9ca1795")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7619,7 +7613,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2142b123-f82b-43ac-a2b8-1ab81e6d16a8")
+			(uuid "9e00027c-e0eb-4d85-a9a9-fc1ecdae7690")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8710,7 +8704,6 @@
 			)
 		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
-		(path "/0130c5a3-353a-456c-8192-d0999c19df61")
 		(sheetname "/")
 		(sheetfile "rpi2040-devboard.kicad_sch")
 		(units
@@ -10249,7 +10242,6 @@
 				)
 			)
 		)
-		(path "/d0406b2f-2757-481f-ba8b-056dcf65638c")
 		(sheetname "/")
 		(sheetfile "rpi2040-devboard.kicad_sch")
 		(units
@@ -12012,7 +12004,6 @@
 				)
 			)
 		)
-		(path "/a1602ee8-0b5b-4251-9662-a7de7886ff53")
 		(sheetname "/")
 		(sheetfile "rpi2040-devboard.kicad_sch")
 		(units
@@ -13062,7 +13053,7 @@
 		(property "Reference" "R4"
 			(at -2.775 -0.075 90)
 			(layer "F.SilkS")
-			(uuid "2f8826f5-3df6-41b5-a4a8-7b6ce5627d43")
+			(uuid "c8adace1-c3bc-4176-80a8-99a24ceb2608")
 			(effects
 				(font
 					(size 1 1)
@@ -13073,7 +13064,7 @@
 		(property "Value" "27"
 			(at 0 1.43 90)
 			(layer "F.Fab")
-			(uuid "1176841e-29c5-49dc-ae43-9a06fc94caf2")
+			(uuid "26914b34-6c36-4f09-8c3a-858953db23cc")
 			(effects
 				(font
 					(size 1 1)
@@ -13085,7 +13076,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "377c5187-c6a3-46f7-970d-0da6cff00ea4")
+			(uuid "95472133-8aed-4800-8f4c-be45d9f964d0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13096,7 +13087,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1d33c11b-4563-434d-a1d1-5d5795ce7a9c")
+			(uuid "eae4ba16-9032-4377-9120-3333530ee0bd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13128,7 +13119,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF270JT5E"
+		(property "MPN" "CQ03WAF270JT5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13141,7 +13132,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25190"
+		(property "LCSC" "C2770847"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13604,7 +13595,7 @@
 		(property "Reference" "C12"
 			(at 3.575 0 90)
 			(layer "F.SilkS")
-			(uuid "1e054b9c-5f94-49b5-b496-d882d278980b")
+			(uuid "ee3dcde7-e48b-4f4e-8151-53404ec43878")
 			(effects
 				(font
 					(size 1 1)
@@ -13615,7 +13606,7 @@
 		(property "Value" "1uF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
-			(uuid "06057532-ef80-45c9-8b38-968a5d8d20df")
+			(uuid "e55a5753-9d81-48ed-b31a-da8911d8eed6")
 			(effects
 				(font
 					(size 1 1)
@@ -13627,7 +13618,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "95a680e0-cdd9-4cdf-b138-e6aeec85f32d")
+			(uuid "589e301d-a813-4628-b1df-f0ab180b7b9f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13638,7 +13629,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "29f5d1be-4824-49c8-be4a-01455a51398e")
+			(uuid "69dc985a-cb2e-47e9-a8d1-eb88cf144aa0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13657,7 +13648,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13670,7 +13661,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL10A105KB8NNNC"
+		(property "MPN" "CC0603KRX5R9BB105"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13683,7 +13674,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C128624"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16394,6 +16385,22 @@
 		(layer "F.Cu")
 		(net "Net-(D2-A)")
 		(uuid "f01ce4d9-bead-4b6f-847b-8c5900010e91")
+	)
+	(segment
+		(start 128.9 74.6)
+		(end 129 74.7)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "Net-(R7-Pad1)")
+		(uuid "281c37bf-3638-4eb6-bf01-2b86bbd3523e")
+	)
+	(segment
+		(start 126.1 74.6)
+		(end 128.9 74.6)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "Net-(R7-Pad1)")
+		(uuid "b728b954-a9d3-468a-a8fd-0954eb5e69e9")
 	)
 	(segment
 		(start 138.7 85.84023)
@@ -19123,22 +19130,6 @@
 		(layer "F.Cu")
 		(net "Net-(LED1-DIN)")
 		(uuid "d6b7c697-8133-40fe-81eb-5548d47b8a95")
-	)
-	(segment
-		(start 128.9 74.6)
-		(end 129 74.7)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "Net-(R7-Pad1)")
-		(uuid "281c37bf-3638-4eb6-bf01-2b86bbd3523e")
-	)
-	(segment
-		(start 126.1 74.6)
-		(end 128.9 74.6)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "Net-(R7-Pad1)")
-		(uuid "b728b954-a9d3-468a-a8fd-0954eb5e69e9")
 	)
 	(zone
 		(net "GND")

@@ -10480,118 +10480,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 60.96 243.84 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1cc56a4c-6cf1-4172-ba39-f858a86e37e3")
-		(property "Reference" "R6"
-			(at 60.96 246.634 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 60.96 249.174 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 60.96 242.062 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 60.96 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 60.96 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0603WAF1001T5E"
-			(at 60.96 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C21190"
-			(at 60.96 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2e87eda2-6cd2-4e8b-a6c6-b6de39eab7a7")
-		)
-		(pin "1"
-			(uuid "be6ff9a2-22ea-475e-882b-23399dc39659")
-		)
-		(instances
-			(project "rpi2040-devboard"
-				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 115.57 125.73 0)
 		(unit 1)
@@ -11685,7 +11573,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "YAGEO"
 			(at 115.57 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -11696,7 +11584,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL10A105KB8NNNC"
+		(property "MPN" "CC0603KRX5R9BB105"
 			(at 115.57 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -11707,7 +11595,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C128624"
 			(at 115.57 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -11843,6 +11731,119 @@
 			(project "rpi2040-devboard"
 				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 339.09 226.06 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2cbc5164-b986-4404-b3d0-dfd48d52ec33")
+		(property "Reference" "R9"
+			(at 339.09 219.71 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 339.09 222.25 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 339.09 227.838 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 339.09 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 339.09 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 339.09 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-071KL"
+			(at 339.09 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22548"
+			(at 339.09 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c3b36027-9686-443e-b938-1a22167ef457")
+		)
+		(pin "2"
+			(uuid "c33237f8-0d70-4e34-8bab-4f9ad3c0d679")
+		)
+		(instances
+			(project "rpi2040-devboard"
+				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -13244,7 +13245,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "YAGEO"
 			(at 107.95 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -13255,7 +13256,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF1001T5E"
+		(property "MPN" "RC0603FR-071KL"
 			(at 107.95 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -13266,7 +13267,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C21190"
+		(property "LCSC" "C22548"
 			(at 107.95 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -14458,7 +14459,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C97521"
+		(property "LCSC" "C113767"
 			(at 148.59 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -15754,119 +15755,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 339.09 226.06 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "79f655d9-4d07-4104-921d-b23794a76361")
-		(property "Reference" "R9"
-			(at 339.09 219.71 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 339.09 222.25 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 339.09 227.838 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 339.09 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 339.09 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 339.09 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0603WAF1001T5E"
-			(at 339.09 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C21190"
-			(at 339.09 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "82820fa4-4e39-451e-9b51-6afa4d59eb40")
-		)
-		(pin "2"
-			(uuid "238c3db0-e449-4138-a64e-62f967bfaba5")
-		)
-		(instances
-			(project "rpi2040-devboard"
-				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 50.8 177.8 0)
 		(unit 1)
@@ -15933,7 +15821,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "YAGEO"
 			(at 50.8 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -15944,7 +15832,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL10A105KB8NNNC"
+		(property "MPN" "CC0603KRX5R9BB105"
 			(at 50.8 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -15955,7 +15843,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C128624"
 			(at 50.8 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -16342,7 +16230,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF270JT5E"
+		(property "MPN" "CQ03WAF270JT5E"
 			(at 60.96 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -16353,7 +16241,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25190"
+		(property "LCSC" "C2770847"
 			(at 60.96 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -17087,7 +16975,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF270JT5E"
+		(property "MPN" "CQ03WAF270JT5E"
 			(at 60.96 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -17098,7 +16986,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25190"
+		(property "LCSC" "C2770847"
 			(at 60.96 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -17929,6 +17817,118 @@
 			(project "rpi2040-devboard"
 				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 60.96 243.84 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b3875255-119b-47e1-9668-a04be6304c60")
+		(property "Reference" "R6"
+			(at 60.96 246.634 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 60.96 249.174 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 60.96 245.618 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 60.96 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 60.96 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-071KL"
+			(at 60.96 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22548"
+			(at 60.96 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7110d731-9866-4e56-b034-6c394da1f5aa")
+		)
+		(pin "2"
+			(uuid "0fa1839a-82b6-46f5-a1d8-127f106914db")
+		)
+		(instances
+			(project "rpi2040-devboard"
+				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
+					(reference "R6")
 					(unit 1)
 				)
 			)
