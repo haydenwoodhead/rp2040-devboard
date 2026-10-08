@@ -5685,6 +5685,10 @@
 		(uuid "a86fcc50-5603-40b0-92e0-4b6c1e272c90")
 	)
 	(no_connect
+		(at 391.16 167.64)
+		(uuid "a990b5f0-5283-4720-9731-629e6db7ff37")
+	)
+	(no_connect
 		(at 264.16 110.49)
 		(uuid "aa49f64e-572d-4956-9d3a-d6ff3854224e")
 	)
@@ -10075,9 +10079,8 @@
 				)
 			)
 		)
-		(property "Value" "TS-1187A-B-A-B"
-			(at 342.9 221.742 0)
-			(hide yes)
+		(property "Value" "USER"
+			(at 342.9 223.774 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11214,7 +11217,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25d9d97f-bdf7-4fce-ad94-0eef5e559b02")
-		(property "Reference" "LED10"
+		(property "Reference" "LED12"
 			(at 381.635 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11326,7 +11329,7 @@
 		(instances
 			(project "rpi2040-devboard"
 				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
-					(reference "LED10")
+					(reference "LED12")
 					(unit 1)
 				)
 			)
@@ -12313,7 +12316,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f11298a-2aa5-4ba9-a968-69d90cd09a39")
-		(property "Reference" "LED14"
+		(property "Reference" "LED8"
 			(at 327.025 190.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12425,7 +12428,7 @@
 		(instances
 			(project "rpi2040-devboard"
 				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
-					(reference "LED14")
+					(reference "LED8")
 					(unit 1)
 				)
 			)
@@ -16066,7 +16069,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7965f73a-75b0-44c0-adef-ea91e095c54d")
-		(property "Reference" "LED12"
+		(property "Reference" "LED14"
 			(at 381.635 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16178,7 +16181,7 @@
 		(instances
 			(project "rpi2040-devboard"
 				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
-					(reference "LED12")
+					(reference "LED14")
 					(unit 1)
 				)
 			)
@@ -16900,7 +16903,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c02924a-90cd-40ba-985e-d939719886f3")
-		(property "Reference" "LED13"
+		(property "Reference" "LED7"
 			(at 327.025 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17012,7 +17015,7 @@
 		(instances
 			(project "rpi2040-devboard"
 				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
-					(reference "LED13")
+					(reference "LED7")
 					(unit 1)
 				)
 			)
@@ -17030,7 +17033,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c49e0cd-6e8c-4d67-9675-37de084b08cc")
-		(property "Reference" "LED9"
+		(property "Reference" "LED11"
 			(at 381.635 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17142,7 +17145,7 @@
 		(instances
 			(project "rpi2040-devboard"
 				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
-					(reference "LED9")
+					(reference "LED11")
 					(unit 1)
 				)
 			)
@@ -17978,7 +17981,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a787abcb-0c90-4199-b020-2da7dc3c2e23")
-		(property "Reference" "LED7"
+		(property "Reference" "LED9"
 			(at 381.635 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18090,7 +18093,7 @@
 		(instances
 			(project "rpi2040-devboard"
 				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
-					(reference "LED7")
+					(reference "LED9")
 					(unit 1)
 				)
 			)
@@ -18264,7 +18267,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b37d1449-b1ab-43c5-ac9c-8f369b713883")
-		(property "Reference" "LED8"
+		(property "Reference" "LED10"
 			(at 381.635 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18376,7 +18379,7 @@
 		(instances
 			(project "rpi2040-devboard"
 				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
-					(reference "LED8")
+					(reference "LED10")
 					(unit 1)
 				)
 			)
@@ -20263,7 +20266,7 @@
 				)
 			)
 		)
-		(property "Value" "BOOTSEL"
+		(property "Value" "BOOT"
 			(at 91.44 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20730,7 +20733,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d95bbbdb-fa73-4f78-9b24-e4fd3496c7c9")
-		(property "Reference" "LED11"
+		(property "Reference" "LED13"
 			(at 381.635 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20842,7 +20845,7 @@
 		(instances
 			(project "rpi2040-devboard"
 				(path "/addad811-4b4a-4af0-b85e-ee2fefa70dd0"
-					(reference "LED11")
+					(reference "LED13")
 					(unit 1)
 				)
 			)
