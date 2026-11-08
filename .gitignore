@@ -33,7 +33,6 @@ fp-info-cache
 
 # Exported BOM files
 *.xml
-*.csv
 
 # Archived Backups (KiCad 6.0)
 **/*-backups/*.zip
@@ -51,5 +50,4 @@ analysis/
 _restore_back*
 
 # jlcpcb toolkit
-production/
 fabrication-toolkit-options.json
