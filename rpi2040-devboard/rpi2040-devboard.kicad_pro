@@ -942,7 +942,7 @@
         "uuid": "addad811-4b4a-4af0-b85e-ee2fefa70dd0"
       }
     ],
-    "used_designators": "SWD1,USR1-2,X1,BOOTSEL1,#FLG1-3,BUZZER1,U1-3,SW1-3,C1-22,VBUS1,GPIO1,LED1-14,D1-3,#PWR1-87,GND1,R1-9,F1-2,#SYM1,J1-3,RESET1,TP1-4",
+    "used_designators": "SWD1,USR1-2,X1,BOOTSEL1,#FLG1-3,BUZZER1,U1-3,SW1-3,C1-22,VBUS1,GPIO1,LED1-14,D1-3,#PWR1-87,GND1,R1-9,TP1-4,J1-3,#SYM1,RESET1,F1-2",
     "variants": []
   },
   "sheets": [

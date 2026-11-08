@@ -8,7 +8,7 @@
 		(title "RP2040 Dev Board")
 		(date "2026-08-24")
 		(rev "0.1")
-		(company "Hayden Woodhead")
+		(company "frogsiedoodle")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
